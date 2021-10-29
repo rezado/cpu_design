@@ -28,13 +28,9 @@ module DR(
 );
 
 reg [31:0] reg_array [31:0];
-//加载数据到存储器，必须使用绝对路径
-initial begin
-	$readmemh("D:/Codes/Vivado/Single_CPU/Single_CPU.srcs/sources_1/new/DR.txt", reg_array);
-end
 
 //Write
-always@(negedge CLK) begin
+always@(posedge CLK) begin
 	if(en && we) reg_array[addr] <= wdata;
 end
 //Read

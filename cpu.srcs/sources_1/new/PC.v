@@ -1,5 +1,6 @@
 //2021-5-23,吴佳宾
 //PC
+// PC可以做跳转和自增
 `timescale 1ns/10ps
 module PC(
 	input	wire			CLK, //时钟信号

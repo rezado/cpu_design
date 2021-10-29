@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="inst_ram_synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1633739137">
-  <File Type="RDS-PROPCONSTRS" Name="inst_ram_drc_synth.rpt"/>
   <File Type="PA-TCL" Name="inst_ram.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="inst_ram_drc_synth.rpt"/>
   <File Type="RDS-RDS" Name="inst_ram.vds"/>
   <File Type="RDS-UTIL" Name="inst_ram_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="inst_ram_utilization_synth.pb"/>

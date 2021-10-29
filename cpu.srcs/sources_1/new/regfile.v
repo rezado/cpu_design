@@ -31,10 +31,13 @@ module regfile(
     output  wire [31:0]   rdata2 //读数据2
 );
 reg [31:0] reg_array[31:0]; //32个32位宽的数据
+//地址:数据
 // 0 : 0
-// 1 : 
+// 1 : 1
+// 2 : 2
+// 3 : 3
 initial begin
-	$readmemb("D:/Codes/Vivado/Single_CPU/Single_CPU.srcs/sources_1/new/IR.txt", IR_array);
+	$readmemh("D:/Codes/cpu/cpu.srcs/sources_1/new/regfile.txt", reg_array);
 end
 
 // 32项 2^5 = 32
