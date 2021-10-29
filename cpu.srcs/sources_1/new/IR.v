@@ -1,6 +1,6 @@
 //2021-5-25, 吴佳宾
 //单周期CPU
-//指令RAM
+//指令RAM 里面存放指令，CPU执行时从这里面取指令
 `timescale 1ns/10ps
 module IR(
 	input			   inst_ram_en, //片选信号，恒为1

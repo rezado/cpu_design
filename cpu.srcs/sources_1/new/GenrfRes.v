@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: 吴佳宾
 // 
 // Create Date: 2021/10/23 10:42:21
 // Design Name: 
@@ -9,7 +9,7 @@
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
-// Description: 
+// Description: 多路选择器 根据控制信号选择寄存器堆写的数据
 // 
 // Dependencies: 
 // 

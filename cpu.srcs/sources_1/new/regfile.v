@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: 吴佳宾
 // 
 // Create Date: 2021/09/25 08:38:39
 // Design Name: 
@@ -9,7 +9,7 @@
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
-// Description: 
+// Description: 寄存器堆 里面有32个通用寄存器 存放执行过程中的结果
 // 
 // Dependencies: 
 // 
@@ -40,6 +40,7 @@ initial begin
 	$readmemh("D:/Codes/cpu/cpu.srcs/sources_1/new/regfile.txt", reg_array);
 end
 
+// 只有在时钟上升沿才能往里写数据
 // 32项 2^5 = 32
 // 0号寄存器值永远都是0
 always@(posedge clk) begin

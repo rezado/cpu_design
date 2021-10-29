@@ -9,7 +9,7 @@
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
-// Description: 
+// Description: 控制单元 根据指令发出控制信号 控制每个部件的功能
 // 
 // Dependencies: 
 // 
@@ -51,7 +51,7 @@ assign rf_we = inst_addu | inst_ori | inst_lw; // 控制信号只有一位
 assign alu_op = {inst_srl, inst_nor, inst_ori, inst_addu | inst_lw | inst_sw};
 assign sel_alusrc2 = {inst_srl, inst_lw | inst_sw, inst_ori, inst_addu};
 assign sel_rfres = {inst_lw, ~inst_lw};
-assign dr_en = inst_lw;
+assign dr_en = inst_lw | inst_sw;
 assign dr_wen = inst_sw;
 
 

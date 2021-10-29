@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: 吴佳宾
 // 
 // Create Date: 2021/10/09 08:33:42
 // Design Name: 
@@ -11,7 +11,7 @@
 // Tool Versions: 
 // Description: 
 // 
-// Dependencies: 
+// Dependencies: data ram 数据RAM存放数据
 // 
 // Revision:
 // Revision 0.01 - File Created

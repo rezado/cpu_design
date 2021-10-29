@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: 吴佳宾
 // 
 // Create Date: 2021/09/25 09:49:14
 // Design Name: 
@@ -9,7 +9,7 @@
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
-// Description: 
+// Description: 算术逻辑单元 执行具体的算术、逻辑、移位操作
 // 
 // Dependencies: 
 // 

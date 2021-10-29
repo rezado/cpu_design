@@ -1,3 +1,4 @@
+// 多路选择器 根据控制信号产生ALU的第二个源操作数
 module GenALUSrc2(
     input   wire [31:0] rf_rdata2, // 寄存器读端口2
     input   wire [31:0] imm_zero, // 零扩展的imm
